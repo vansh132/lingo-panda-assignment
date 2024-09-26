@@ -2,7 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:lingo_panda_assignment/firebase_options.dart';
 import 'package:lingo_panda_assignment/provider/news_provider.dart';
-import 'package:lingo_panda_assignment/view/signup_view.dart';
+import 'package:lingo_panda_assignment/view/login_view.dart';
 import 'package:provider/provider.dart';
 
 import 'theme/app_theme.dart';
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: theme.light,
-        home: const SignupScreen(),
+        home: const LoginScreen(),
       ),
     );
   }

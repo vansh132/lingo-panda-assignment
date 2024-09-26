@@ -23,15 +23,11 @@ class _HomeScreenState extends State<HomeScreen> {
   // }
 
   String timeAgo(String publishedAt) {
-    // Parse the publishedAt string to DateTime object
     DateTime publishedDate = DateTime.parse(publishedAt);
-    print(publishedDate);
-    // Get the current time
+
     DateTime now = DateTime.now();
 
-    // Calculate the difference
     Duration difference = now.difference(publishedDate);
-    print(difference.inDays);
 
     if (difference.inMinutes < 60) {
       return '${difference.inMinutes} minutes ago';
@@ -63,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             Container(
               color: appColors.primary,
-              // height: 200,
+              margin: const EdgeInsets.only(bottom: 8),
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
