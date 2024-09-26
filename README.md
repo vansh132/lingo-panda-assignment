@@ -3,11 +3,11 @@
 This project is a simple news app built using Flutter and Firebase, designed as part of a technical interview challenge. The app allows users to authenticate using Firebase Authentication (email), fetch news headlines from the News API, and stores user details in Firestore.
 
 ## Screenshots
-<img width="400" alt="Screenshot 2024-09-19 at 21 13 37" src="https://github.com/user-attachments/assets/21a8c993-0621-45c3-9be1-232964e9b901">
-<img width="400" alt="Screenshot 2024-09-19 at 21 13 37" src="https://github.com/user-attachments/assets/a972deb5-09af-4ee5-a53e-fe7d9a2689e8">
-<img width="400" alt="Screenshot 2024-09-19 at 21 13 37" src="https://github.com/user-attachments/assets/efc9c206-572d-4078-b832-1593f7cb599d">
-<img width="400" alt="Screenshot 2024-09-19 at 21 13 37" src="https://github.com/user-attachments/assets/fd2dcee9-7492-4ecc-9ea4-83a7ac77dfd9">
-<img width="400" alt="Screenshot 2024-09-19 at 21 13 37" src="https://github.com/user-attachments/assets/73a961fd-b16f-4d0f-a536-b2d9ec5e19fd">
+<img width="200" alt="Screenshot 2024-09-19 at 21 13 37" src="https://github.com/user-attachments/assets/21a8c993-0621-45c3-9be1-232964e9b901">
+<img width="200" alt="Screenshot 2024-09-19 at 21 13 37" src="https://github.com/user-attachments/assets/a972deb5-09af-4ee5-a53e-fe7d9a2689e8">
+<img width="200" alt="Screenshot 2024-09-19 at 21 13 37" src="https://github.com/user-attachments/assets/efc9c206-572d-4078-b832-1593f7cb599d">
+<img width="200" alt="Screenshot 2022-09-19 at 21 13 37" src="https://github.com/user-attachments/assets/fd2dcee9-7492-4ecc-9ea4-83a7ac77dfd9">
+<img width="200" alt="Screenshot 2022-09-19 at 21 13 37" src="https://github.com/user-attachments/assets/73a961fd-b16f-4d0f-a536-b2d9ec5e19fd">
 
 ## Demo Video
 
